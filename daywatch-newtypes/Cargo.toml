@@ -4,7 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [features]
-default = ["money", "user-info"]
+default = ["money", "user-info", "uuid"]
+uuid = []
 user-info = []
 money = []
 
@@ -13,3 +14,11 @@ lazy_static = "1.4.0"
 nutype = { version = "0.4.0", features = ["regex"] }
 regex = "1.10.2"
 rusty-money = { version = "0.4.1", features = ["iso", "crypto"] }
+
+[dependencies.uuid]
+version = "1.6.1"
+features = [
+  "v4",                # Lets you generate random UUIDs
+  "fast-rng",          # Use a faster (but still sufficiently random) RNG
+  "macro-diagnostics", # Enable better diagnostics for compile-time UUIDs
+]

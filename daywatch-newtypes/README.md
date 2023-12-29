@@ -7,6 +7,7 @@ Do not worry - `daywatch_newtypes` has done the hard work for you.
 ## List of newtypes
 
 - Money: ISO currency, Cryptocurrency(optional)
+- Common: UUID,
 - User Info: Email, Username, PhoneNumber
 - Datetime: TODO
 
