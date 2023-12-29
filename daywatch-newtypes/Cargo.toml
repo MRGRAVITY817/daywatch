@@ -9,4 +9,7 @@ money-iso = ["rusty-money/iso"]
 money-crypto = ["rusty-money/crypto"]
 
 [dependencies]
+lazy_static = "1.4.0"
+nutype = { version = "0.4.0", features = ["regex"] }
+regex = "1.10.2"
 rusty-money = { version = "0.4.1", features = ["iso", "crypto"] }
