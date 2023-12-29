@@ -1,9 +1,4 @@
-use daywatch_newtypes::{
-    money::{iso, Money},
-    time::NaiveDate,
-    user_info::{Email, PhoneNumber},
-    uuid::Uuid,
-};
+use daywatch_newtypes::prelude::*;
 use std::error::Error;
 
 struct User<'a> {
