@@ -4,9 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [features]
-default = ["money-iso"]
-money-iso = ["rusty-money/iso"]
-money-crypto = ["rusty-money/crypto"]
+default = ["money", "user-info"]
+user-info = []
+money = []
 
 [dependencies]
 lazy_static = "1.4.0"

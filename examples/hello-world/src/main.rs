@@ -1,5 +1,4 @@
 use daywatch_newtypes::{
-    self,
     money::{iso, Money},
     user_info::{Email, PhoneNumber},
 };

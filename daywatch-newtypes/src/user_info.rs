@@ -1,3 +1,5 @@
+#![cfg(feature = "user-info")]
+
 use lazy_static::lazy_static;
 use nutype::nutype;
 use regex::Regex;
