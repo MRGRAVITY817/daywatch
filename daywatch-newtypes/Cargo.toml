@@ -3,6 +3,10 @@ name = "daywatch-newtypes"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[features]
+default = ["money-iso"]
+money-iso = ["rusty-money/iso"]
+money-crypto = ["rusty-money/crypto"]
 
 [dependencies]
+rusty-money = { version = "0.4.1", features = ["iso", "crypto"] }

@@ -3,3 +3,6 @@ members = ["daywatch", "daywatch-*", "examples/*"]
 # Only check / build main crates by default (check all with `--workspace`)
 default-members = ["daywatch", "daywatch-*"]
 resolver = "2"
+
+[workspace.dependencies]
+daywatch-newtypes = { path = "./daywatch-newtypes", version = "0.1.0" }
