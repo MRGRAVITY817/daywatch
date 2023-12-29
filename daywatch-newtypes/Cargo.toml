@@ -4,12 +4,14 @@ version = "0.1.0"
 edition = "2021"
 
 [features]
-default = ["money", "user-info", "uuid"]
+default = ["money", "user-info", "uuid", "time"]
 uuid = []
 user-info = []
 money = []
+time = []
 
 [dependencies]
+chrono = "0.4.31"
 lazy_static = "1.4.0"
 nutype = { version = "0.4.0", features = ["regex"] }
 regex = "1.10.2"

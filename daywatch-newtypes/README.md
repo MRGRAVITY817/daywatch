@@ -6,10 +6,10 @@ Do not worry - `daywatch_newtypes` has done the hard work for you.
 
 ## List of newtypes
 
-- Money: ISO currency, Cryptocurrency(optional)
-- Common: UUID,
+- Money: ISO currency, Cryptocurrency (re-exported from `rusty-money`)
 - User Info: Email, Username, PhoneNumber
-- Datetime: TODO
+- Common: UUID (re-exported from `uuid`),
+- Time: DateTime, Duration, NaiveDate, NaiveDateTime, TimeZone, Utc (re-exported from `chrono`)
 
 ## Examples
 
